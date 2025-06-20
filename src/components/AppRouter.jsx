@@ -1,0 +1,14 @@
+import { routes } from "../utils/routes";
+import { Routes, Route } from "react-router-dom";
+
+function AppRouter() {
+    return (
+        <Routes>
+            {routes.map((route, index) => (
+                <Route key={index} path={route.path} element={<route.element />} />
+            ))}
+        </Routes>
+    );
+}
+
+export default AppRouter;
