@@ -1,5 +1,5 @@
 import AppRouter from "./components/AppRouter";
-import Sidebar from "./components/sidebar";
+import Sidebar from "./components/Sidebar";
 import "./assets/css/style.css";
 
 function App() {
